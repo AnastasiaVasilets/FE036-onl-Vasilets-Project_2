@@ -1,0 +1,95 @@
+#download{
+    width: 100%;
+    padding: 114px 0;
+    @media(max-width:410px){
+        padding: 45px 0;
+    }
+    @media(max-width:1080px){
+        padding: 77px 0;
+   }
+}
+
+#download__container{
+    text-align: center;
+}
+
+.download__title{
+    font-family: 'Raleway';
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 500;
+    color: $_brown;
+    margin-bottom: 20px;
+    @media(max-width:1080px){
+        line-height: 21px;
+        font-size: 24px;
+        max-width: 900px;
+        margin: 0 auto 20px;
+    }
+    @media(max-width:410px){
+        line-height: 18px;
+        font-size: 18px;
+        max-width: 280px;
+        margin: 0 auto 20px;
+    }
+    @media(max-width:703px){
+        line-height: 30px;
+   }
+}
+
+.download__description{
+    margin-bottom: 50px;
+    @media(max-width:1080px){
+        margin-bottom: 45px;
+    }
+    @media(max-width:410px){
+        margin-bottom: 15px;
+    }
+    &-text{
+        font-family: 'Raleway';
+        font-size: 18px;
+        font-weight: 700;
+        color: $_brown;
+        text-transform: uppercase;
+        @media(max-width:1080px){
+            font-size: 14px;
+        }
+        @media(max-width:410px){
+            font-size: 13px;
+        }
+    }
+}
+
+.download__button{
+    margin: auto;
+    width: 369px;
+    background-color: $_red;
+    cursor: pointer;
+    @media(max-width:1080px){
+        width: 313px;
+    }
+    @media(max-width:410px){
+        width: 280px;
+    }
+    a{
+        font-family: 'Raleway';
+        font-size: 25px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $_white;
+        line-height: 77px;
+        @media(max-width:1080px){
+            font-size: 18px;
+        }
+        
+    }
+}
+
+.download__button:hover{
+    background-color: $_dark-red;
+}
+
+.download__button:active{
+    background-color: $_red;
+    box-shadow: 4px 4px 30px $_brown;
+}

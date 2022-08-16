@@ -1,0 +1,89 @@
+//navigation
+// @mixin nav__normal{
+//     font-size: $_13px;
+//     font-family: 'Raleway';
+//     font-weight: 700;
+//     color: $_white;
+// }
+
+// @mixin nav__normal__line {
+//     border: 3px solid $_beige;
+//     display: none;
+    
+// }
+
+// @mixin nav__hover{
+//     font-size: $_13px;
+//     font-family: 'Raleway';
+//     font-weight: 700;
+//     color: $_white;
+//     transition: 0.3s;
+// }
+
+// @mixin nav__hover__line{
+//     border: 3px solid $_beige;
+//     display: inline-block;
+// }
+
+// @mixin nav__active {
+//     font-size: $_13px;
+//     font-family: 'Raleway';
+//     font-weight: 700;
+//     color: $_red;
+// }
+
+// @mixin nav__active__line{
+//     border: 3px solid $_red;
+//     display: inline-block;
+// }
+
+// //buttons
+// @mixin button__wrap {
+//     border: none;
+//     color: white;
+//     background-color: $_red;
+//     text-transform: uppercase;
+//     font-size: $_24px;
+//     max-width: 369px;
+//     line-height: 77px;
+// }
+
+// @mixin button {
+//     border: none;
+//     background-color: inherit;
+//     margin: auto;
+// }
+
+// @mixin button__wrap__hover {
+//     border: none;
+//     color: white;
+//     background-color: $_dark-red;
+//     text-transform: uppercase;
+//     font-size: $_24px;
+//     max-width: 369px;
+//     line-height: 77px;
+// }
+
+// @mixin button__hover {
+//     border: none;
+//     background-color: inherit;
+//     margin: auto;
+// }
+
+// @mixin button__active {
+//     border: none;
+//     color: white;
+//     background-color: $_red;
+//     text-transform: uppercase;
+//     font-size: $_24px;
+//     max-width: 369px;
+//     line-height: 77px;
+//     box-shadow: 4px 4px 30px $_red;
+// }
+
+// @mixin button {
+//     border: none;
+//     background-color: inherit;
+//     margin: auto;
+// }
+

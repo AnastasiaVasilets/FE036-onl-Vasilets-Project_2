@@ -1,0 +1,636 @@
+#work{
+    width: 100%;
+    padding: 0;
+}
+
+#work__container{
+    max-width: 1500px;
+    padding: 0;
+}
+
+.work__wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 170px);
+    @media(max-width:700px){ 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(6, 170px);
+    }
+    .work__1{
+        background: url("../img/1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        border: 2px solid $_white;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        @media(max-width:700px){ 
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        
+
+        .work__1-content{
+            visibility: hidden;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: $_red, $alpha: 0.7);
+            padding: 5px;
+            & h4{
+                font-family: 'Raleway';
+                font-size: 24px;
+                font-weight: 900;
+                color: $_white;
+                text-transform: uppercase;
+                text-align: center;
+                margin-bottom: 20px;
+                display: block;
+                @media(max-width:1080px){ 
+                    font-size: 18px;
+                }
+            }
+            & p{
+                font-family: 'Raleway';
+                font-size: 18px;
+                font-weight: 400;
+                color: $_white;
+                text-align: center;
+                @media(max-width:1080px){ 
+                    font-size: 14px;
+                }
+            }
+        }    
+    }
+    .work__2{
+        background: url("../img/2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        border: 2px solid $_white;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        @media(max-width:700px){ 
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 6;
+        }
+        .work__2-content{
+            visibility: hidden;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: $_red, $alpha: 0.7);
+            padding: 5px;
+            & h4{
+                font-family: 'Raleway';
+                font-size: 20px;
+                font-weight: 900;
+                color: $_white;
+                text-transform: uppercase;
+                text-align: center;
+                margin-bottom: 20px;
+                @media(max-width:1080px){ 
+                    font-size: 18px;
+                }
+            }
+            & p{
+                font-family: 'Raleway';
+                font-size: 16px;
+                font-weight: 400;
+                color: $_white;
+                text-align: center;
+                @media(max-width:1080px){ 
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .work__3{
+        background: url("../img/3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        border: 2px solid $_white;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        @media(max-width:700px){ 
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-position: 0 -115px;
+            
+        }
+        @media(max-width:600px){ 
+            background-position: center;
+        }
+        .work__3-content{
+            visibility: hidden;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: $_red, $alpha: 0.7);
+            padding: 5px;
+            & h4{
+                font-family: 'Raleway';
+                font-size: 20px;
+                font-weight: 900;
+                color: $_white;
+                text-transform: uppercase;
+                text-align: center;
+                margin-bottom: 20px;
+                @media(max-width:1080px){ 
+                    font-size: 18px;
+                }
+            }
+            & p{
+                font-family: 'Raleway';
+                font-size: 16px;
+                font-weight: 400;
+                color: $_white;
+                text-align: center;
+                @media(max-width:1080px){ 
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .work__4{
+        background: url("../img/4.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        border: 2px solid $_white;
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        @media(max-width:700px){ 
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .work__4-content{
+            visibility: hidden;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: $_red, $alpha: 0.7);
+            padding: 5px;
+            & h4{
+                font-family: 'Raleway';
+                font-size: 20px;
+                font-weight: 900;
+                color: $_white;
+                text-transform: uppercase;
+                text-align: center;
+                margin-bottom: 20px;
+                @media(max-width:1080px){ 
+                    font-size: 18px;
+                }
+            }
+            & p{
+                font-family: 'Raleway';
+                font-size: 16px;
+                font-weight: 400;
+                color: $_white;
+                text-align: center;
+                @media(max-width:1080px){ 
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .work__5{
+        background: url("../img/5.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        border: 2px solid $_white;
+        grid-column-start: 6;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        @media(max-width:700px){ 
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 6;
+        }
+        .work__5-content{
+            visibility: hidden;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: $_red, $alpha: 0.7);
+            padding: 5px;
+            & h4{
+                font-family: 'Raleway';
+                font-size: 22px;
+                font-weight: 900;
+                color: $_white;
+                text-transform: uppercase;
+                text-align: center;
+                margin-bottom: 20px;
+                @media(max-width:1080px){ 
+                    font-size: 18px;
+                }
+            }
+            & p{
+                font-family: 'Raleway';
+                font-size: 18px;
+                font-weight: 400;
+                color: $_white;
+                text-align: center;
+                @media(max-width:1080px){ 
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .work__6{
+        background: url("../img/6.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        border: 2px solid $_white;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        @media(max-width:700px){ 
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 6;
+            grid-row-end: 7;
+            background-position: 0 -90px;
+        }
+        @media(max-width:600px){ 
+            background-position: center;
+        }
+        .work__6-content{
+            visibility: hidden;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: $_red, $alpha: 0.7);
+            padding: 5px;
+            & h4{
+                font-family: 'Raleway';
+                font-size: 24px;
+                font-weight: 900;
+                color: $_white;
+                text-transform: uppercase;
+                text-align: center;
+                margin-bottom: 20px;
+                @media(max-width:1080px){ 
+                    font-size: 18px;
+                }
+            }
+            & p{
+                font-family: 'Raleway';
+                font-size: 18px;
+                font-weight: 400;
+                color: $_white;
+                text-align: center;
+                @media(max-width:1080px){ 
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .work__7{
+        background: url("../img/7.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        border: 2px solid $_white;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        @media(max-width:700px){ 
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 6;
+            grid-row-end: 7;
+        }
+        .work__7-content{
+            visibility: hidden;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: $_red, $alpha: 0.7);
+            padding: 5px;
+            & h4{
+                font-family: 'Raleway';
+                font-size: 20px;
+                font-weight: 900;
+                color: $_white;
+                text-transform: uppercase;
+                text-align: center;
+                margin-bottom: 20px;
+                @media(max-width:1080px){ 
+                    font-size: 18px;
+                }
+            }
+            & p{
+                font-family: 'Raleway';
+                font-size: 16px;
+                font-weight: 400;
+                color: $_white;
+                text-align: center;
+                @media(max-width:1080px){ 
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .work__8{
+        background: url("../img/8.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        border: 2px solid $_white;
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        @media(max-width:700px){ 
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            background-position: 0 -270px;
+        }
+        @media(max-width:590px){ 
+            background-position: 0 -200px;
+        }
+        @media(max-width:450px){ 
+            background-position: center;
+        }
+        .work__8-content{
+            visibility: hidden;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: $_red, $alpha: 0.7);
+            padding: 5px;
+            & h4{
+                font-family: 'Raleway';
+                font-size: 20px;
+                font-weight: 900;
+                color: $_white;
+                text-transform: uppercase;
+                text-align: center;
+                margin-bottom: 20px;
+                @media(max-width:1080px){ 
+                    font-size: 18px;
+                }
+            }
+            & p{
+                font-family: 'Raleway';
+                font-size: 16px;
+                font-weight: 400;
+                color: $_white;
+                text-align: center;
+                @media(max-width:1080px){ 
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .work__9{
+        background: url("../img/9.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        border: 2px solid $_white;
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        @media(max-width:700px){ 
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .work__9-content{
+            visibility: hidden;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: $_red, $alpha: 0.7);
+            padding: 5px;
+            & h4{
+                font-family: 'Raleway';
+                font-size: 24px;
+                font-weight: 900;
+                color: $_white;
+                text-transform: uppercase;
+                text-align: center;
+                margin-bottom: 20px;
+                @media(max-width:1080px){ 
+                    font-size: 18px;
+                }
+            }
+            & p{
+                font-family: 'Raleway';
+                font-size: 18px;
+                font-weight: 400;
+                color: $_white;
+                text-align: center;
+                @media(max-width:1080px){ 
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+.work__1:hover .work__1-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work__2:hover .work__2-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work__3:hover .work__3-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work__4:hover .work__4-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work__5:hover .work__5-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work__6:hover .work__6-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work__7:hover .work__7-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work__8:hover .work__8-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work__9:hover .work__9-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.work__1:active .work__1-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba($color: $_dark-red, $alpha: 0.7);
+}
+.work__2:active .work__2-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba($color: $_dark-red, $alpha: 0.7);
+}
+.work__3:active .work__3-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba($color: $_dark-red, $alpha: 0.7);
+}
+.work__4:active .work__4-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba($color: $_dark-red, $alpha: 0.7);
+}
+.work__5:active .work__5-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba($color: $_dark-red, $alpha: 0.7);
+}
+.work__6:active .work__6-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba($color: $_dark-red, $alpha: 0.7);
+}
+.work__7:active .work__7-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba($color: $_dark-red, $alpha: 0.7);
+}
+.work__8:active .work__8-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba($color: $_dark-red, $alpha: 0.7);
+}
+.work__9:active .work__9-content{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba($color: $_dark-red, $alpha: 0.7);
+}

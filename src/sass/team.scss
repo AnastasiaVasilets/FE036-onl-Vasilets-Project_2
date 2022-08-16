@@ -1,0 +1,130 @@
+#team{
+    width: 100%;
+    padding: 114px 0 80px;
+    @media(max-width:689px){ 
+        padding: 114px 0 65px;
+    }
+    @media(max-width:459px){ 
+        padding: 114px 0 0;
+    }
+}
+
+
+.team__cards-wrap{
+    margin: 0 -15px;
+    display: flex;
+    justify-content: space-between;
+    @media(max-width:920px){ 
+        flex-wrap: wrap;
+    }
+    @media(max-width:689px){ 
+        justify-content: space-around;
+    }
+    @media(max-width:459px){ 
+        .team__cards-wrap:last-child{
+
+        }
+    }
+    .team__card{
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        margin: 0 15px;
+        .team__img{
+            width: 240px;
+            height: 240px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            & img{
+                width: 100%;
+                height: 100%;
+                object-position: center;
+                object-fit: cover;
+            }
+        }
+        .team__name{
+            font-family: 'Raleway';
+            font-size: 24px;
+            font-weight: 700;
+            color: $_brown;
+            margin-bottom: 5px;
+        }
+        .team__occupation{
+            font-family: 'Raleway';
+            font-size: 18px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: $_red;
+            display: inline-block;
+            margin-bottom: 18px;
+        }
+        .team__about{
+            flex-grow: 1;
+            margin-bottom: 38px;
+            & p{
+                font-family: 'Raleway';
+                font-weight: 400;
+                font-size: 18px;
+                color: $_beige;
+            }
+        }
+        .team__social{
+            display: flex;
+            justify-content: flex-start;
+            & li{
+                width: 39px;
+                height: 39px;
+                margin: 0 6px;
+                border: 1px solid $_beige;
+                color: $_beige;
+                position: relative;
+                a {
+                    color: inherit;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-20%, -28%);
+                    font-size: 18px;
+                }
+            }
+            & li:first-child{
+                margin-left: 0;
+            }
+            & li:last-child{
+                margin-right: 0;
+            }
+        }
+        @media(max-width:1080px){ 
+            width: 200px;
+            .team__img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+        @media(max-width:920px){ 
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        @media(max-width:459px){ 
+            width: 280px;
+            margin-bottom: 55px;
+            .team__img{
+                width: 280px;
+                height: 280px;
+            }
+            .team__about{
+                margin-bottom: 55px;
+            }
+            .team__occupation{
+                margin-bottom: 38px;
+            }
+            @media(max-width:689px){ 
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
